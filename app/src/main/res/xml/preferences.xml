@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="level"
+        android:title="@string/pref1_title"
+        android:summary="Current: %s"
+        android:inputType="number"
+        android:entries="@array/levels"
+        android:entryValues="@array/levelOrderValues"
+        android:defaultValue="3" />
+    <CheckBoxPreference
+        android:key="cheating"
+        android:defaultValue="false"
+        android:title="@string/pref3_title"
+        android:summary="@string/pref3_description"/>
+    <CheckBoxPreference
+        android:key="musica"
+        android:defaultValue="true"
+        android:title="@string/pref2_title"
+        android:summary="@string/pref2_description"/>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,271 @@
+{
+    "name": "genome_1",
+    "num_autosomes": 2,
+    "num_sex_chromosomes": 2,
+    "num_genes": 10,
+    "ploidy": 2,
+    "sex_determination": "WZ",
+    "about": "This is a simple genome with 3 chromosomes and 20 genes, diploid (2n) and with WZ sex determination system (like birds)",
+    "gene_load_order": [0, 1, 7, 8, 4, 3, 5, 6, 2, 9],
+    "extra_resources": ["ic_shadow"],
+    "chromosomes": [
+        {
+            "name": "chrI",
+            "num_genes": 3,
+            "type": "AUTOSOMAL",
+            "genes": [
+                {
+                    "name": "gene1",
+                    "position": 0.0,
+                    "inheritance": "DOMINANT_RECESSIVE",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "body color yellow",
+                        "body color red"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "ic_bodycolor_yellow",
+                        "ic_bodycolor_red"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                },
+                {
+                    "name": "gene2",
+                    "position": 0.2,
+                    "inheritance": "DOMINANT_RECESSIVE",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "no blue pattern",
+                        "blue pattern"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "empty",
+                        "ic_bodypattern_blue"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                },
+                {
+                    "name": "gene3",
+                    "position": 0.3,
+                    "inheritance": "DOMINANT_RECESSIVE",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "black eyes",
+                        "red eyes"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "ic_eyes_black",
+                        "ic_eyes_red"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                }
+            ]
+        },
+        {
+            "name": "chrII",
+            "num_genes": 3,
+            "type": "AUTOSOMAL",
+            "genes": [
+                {
+                    "name": "gene4",
+                    "position": 0.0,
+                    "inheritance": "DOMINANT_RECESSIVE",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "no brown feet",
+                        "brown feet"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "empty",
+                        "ic_feet_brown"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                },
+                {
+                    "name": "gene5",
+                    "position": 0.15,
+                    "inheritance": "DOMINANT_RECESSIVE",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "blue legs",
+                        "legs as body"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "ic_legcolor_blue",
+                        "empty"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                },
+                {
+                    "name": "gene6",
+                    "position": 0.4,
+                    "inheritance": "DOMINANT_RECESSIVE",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "legs without spots",
+                        "legs with spots"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "empty",
+                        "ic_legspeckles_present"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                }
+            ]
+        },
+        {
+            "name": "chrZ",
+            "num_genes": 3,
+            "type": "SEXUAL",
+            "genes": [
+                {
+                    "name": "gene7",
+                    "position": 0.0,
+                    "inheritance": "SEX_DOMINANT",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "longitudinal stripes",
+                        "no long. stripes"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "ic_longstripes_red",
+                        "empty"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                },
+                {
+                    "name": "gene8",
+                    "position": 0.2,
+                    "inheritance": "SEX_DOMINANT",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "stomach as body",
+                        "light stomach"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "empty",
+                        "ic_stomachcolor_white"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                },
+                {
+                    "name": "gene9",
+                    "position": 0.4,
+                    "inheritance": "SEX_DOMINANT",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "no stomach stripes",
+                        "blue stomach stripes"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "empty",
+                        "ic_stomach_pattern"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                }
+            ]
+        },
+        {
+            "name": "chrW",
+            "num_genes": 1,
+            "type": "SEXUAL",
+            "genes": [
+                {
+                    "name": "gene10",
+                    "position": 0.0,
+                    "inheritance": "CHROMOSOME_Y_OR_W",
+                    "alleles": [
+                        "A",
+                        "a"
+                    ],
+                    "possible_phenotypes": [
+                        "no head spot",
+                        "head spot"
+                    ],
+                    "allele_priority": [
+                        1,
+                        2
+                    ],
+                    "phenotype_resources": [
+                        "empty",
+                        "ic_headspeck"
+                    ],
+                    "epistatic_under": [],
+                    "epistatic_upon": []
+                }
+            ]
+        }
+    ]
+}

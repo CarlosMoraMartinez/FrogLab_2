@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/ tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/options"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+    <item android:title="@string/about_label"
+        android:id="@+id/acercade"
+        android:icon="@drawable/ic_frog_logo5"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

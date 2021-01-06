@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorIndividualCard">#eaf2f8</color>
+    <color name="colorIndividualCardDatabase">#eafaf1</color>
+    <color name="colorIndividualCardSelected">#f5b7b1</color>
+    <color name="colorFamilyCard">#7fb3d5</color>
+    <color name="colorButtons">#d6eaf8</color>
+</resources>

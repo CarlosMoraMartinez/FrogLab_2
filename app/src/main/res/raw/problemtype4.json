@@ -1,0 +1,12 @@
+{
+  "name": "problems of type 4",
+  "genome":"simple_genome_1",
+  "description": "Problems of sex-linked inheritance",
+  "base_haplotype1": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+  "base_haplotype2": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+  "problem_genes": ["gene7", "gene8", "gene9"],
+  "problem_father_haplotype1": ["A", "A", "A"],
+  "problem_father_haplotype2": ["a", "a", "a"],
+  "problem_mother_haplotype1": ["a", "a", "a"],
+  "problem_mother_haplotype2": ["", "", ""]
+}

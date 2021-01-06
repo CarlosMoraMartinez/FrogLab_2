@@ -1,0 +1,13 @@
+{
+  "name": "problems of type 1",
+  "genome":"simple_genome_1",
+  "description": "All genes heterozygous. Used for genetic mapping",
+  "base_haplotype1": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+  "base_haplotype2": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+  "problem_genes": ["gene1", "gene2", "gene3", "gene4", "gene5", "gene6", "gene7", "gene8", "gene9", "gene10"],
+  "problem_father_haplotype1": ["A", "A", "A", "A", "A", "A", "A", "A", "A", ""],
+  "problem_father_haplotype2": ["A", "A", "A", "A", "A", "A", "A", "A", "A", ""],
+  "problem_mother_haplotype1": ["a", "a", "a", "a", "a", "a", "a", "a", "a", "a"],
+  "problem_mother_haplotype2": ["a", "a", "a", "a", "a", "a", "", "", "", ""],
+  "gene_groups": [["gene1", "gene2", "gene3", "gene4", "gene5", "gene6", "gene7", "gene8", "gene9", "gene10"]]
+}

@@ -1,0 +1,112 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:fontFamily">serif-light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="Mistitulos1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:typeface">serif</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">34dp</item>
+    </style>
+    <style name="Mistitulos2" parent="Mistitulos1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">26dp</item>
+    </style>
+    <style name="MiCuerpoTexto" parent="Mistitulos1">
+        <item name="android:textColor">#222222</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="MisPiesFigura" parent="Mistitulos1">
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="MiTextoEnfasis" parent="MiCuerpoTexto">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="MisAlertas" parent="Mistitulos1">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="MiEstilo"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00AA00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="MiEstilo.grande">
+        <item name="android:textSize">18pt</item>
+    </style>
+    <style name="MiEstilo.grande.negrita" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="EstiloBoton"
+        parent="AppTheme" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/colorButtons</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:buttonCornerRadius">20dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">serif-light</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">30dp</item>
+    </style>
+    <style name="EstiloBoton.Landscape">
+        <item name="android:textSize">16dp</item>
+        <item name="android:padding">30dp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:buttonCornerRadius">20dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">serif-light</item>
+        <item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+    <style name="EstiloElementoJuego"
+        parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="EstiloElementoRana"
+        parent="EstiloElementoJuego">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+    <style name="PreferenceTheme" parent="@style/AppTheme">
+        <item name="android:colorBackground">@color/colorIndividualCard</item>
+    </style>
+
+</resources>

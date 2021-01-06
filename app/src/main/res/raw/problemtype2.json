@@ -1,0 +1,12 @@
+ {
+   "name": "problems of type 2",
+   "genome":"simple_genome_1",
+   "description": "Problems of classical Mendelian inheritance, with one dominant and one recessive allele",
+   "base_haplotype1": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+   "base_haplotype2": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+   "problem_genes": ["gene1", "gene2", "gene3", "gene4", "gene5", "gene6"],
+   "problem_father_haplotype1": ["A", "A", "A", "A", "A", "A"],
+   "problem_father_haplotype2": ["A", "A", "A", "A", "A", "A"],
+   "problem_mother_haplotype1": ["a", "a", "a", "a", "a", "a"],
+   "problem_mother_haplotype2": ["a", "a", "a", "a", "a", "a"]
+ }

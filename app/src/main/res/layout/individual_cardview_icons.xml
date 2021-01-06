@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/individual_card"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/colorIndividualCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icono"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:elevation="0dp"
+            android:padding="0dp"
+            android:scaleType="centerInside"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_bodycolor_red" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Frog ID"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/icono"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/subtitulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:paddingBottom="8dp"
+            android:paddingEnd="8dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/titulo"
+            android:text="Phenotype" />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="8dp"
+    card_view:layout_constraintStart_toStartOf="parent"
+    card_view:layout_constraintEnd_toEndOf="parent"
+    card_view:layout_constraintTop_toTopOf="parent">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <ImageButton
+            android:id="@+id/image_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:focusable="true"
+            android:src="@drawable/ic_image_24px"
+            android:elevation="0sp"
+            android:background="@color/colorIndividualCard"
+            android:gravity="right"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:id="@+id/save_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:focusable="true"
+            android:background="@color/colorIndividualCard"
+            android:src="@drawable/ic_save_24px"
+            android:elevation="0sp"
+            android:gravity="right"
+            android:scaleType="centerCrop" />
+</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
